@@ -1,0 +1,153 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {  
+    margin-bottom: 60px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(173, 216, 230, 0.2); /*Số chẵn */
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(75, 192, 192, 0.2); /*Số lẻ */
+}
+/*insert*/
+/* Đảm bảo mỗi dòng có 4 sản phẩm */
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+/* Định dạng chiều cao cho hình ảnh */
+.product-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Ẩn nút "Chi tiết" mặc định */
+.details-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+/* Định vị hình ảnh bên trong card với relative */
+.card-image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+    /* Hiệu ứng hover: hiện nút chi tiết sp khi hover lên hình */
+    .card-image-wrapper:hover .details-btn {
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* Hiệu ứng zoom khi hover lên ảnh */
+    .card-image-wrapper:hover .product-img {
+        transform: scale(1.1);
+        transition: 0.5s ease;
+    }
+
+/* Canh giữa tên sản phẩm và giá */
+.card-title, .card-text {
+    margin-top: 10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* Khoảng cách giữa các sản phẩm */
+.card {
+    margin: 5px;
+ 
+}
+/*style Hết hàng*/
+.sold-out-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Nền đen với độ trong suốt */
+}
+
+/* for Tab control identity Users */
+div.login-logout-tab div.card.header {
+    padding: 0px 0px 12px 0px;
+}
+
+div.login-logout-tab li.nav-tabs {
+    margin: 0px 0px -12px 0px;
+}
+
+div.login-logout-tab li.nav-item {
+    width: 50%;
+}
+
+div.login-logout-tab a.nav-link {
+    font-size: 25px;
+    color: #495057;
+    text-align: center;
+}
+
+div.form-group {
+    padding: 10px;
+}
+/*insert star*/
+.checked {
+    color: gold; /* Màu vàng cho sao đã chọn */
+}
+
+.fa-star {
+    transition: color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+/*a:hover {
+    font-size: 18px;
+    padding:10px;
+}*/
+
+/*PageList*/
+.pagination {
+    display: flex; /* căn giữa */
+    justify-content: center; /* Căn giữa các phần tử trong container */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 0; /* Bỏ padding mặc định */
+    margin: 20px 0; /* Tạo khoảng cách trên và dưới */
+    list-style: none; /* Bỏ dấu chấm */
+}
+
+    .pagination a {
+        text-decoration: none; /* Bỏ gạch chân */
+        padding: 10px 15px; /* Padding cho nút */
+        margin: 0 5px; /* Khoảng cách giữa các nút */
+        border: 1px solid #007bff; /* Viền cho nút */
+        color: #007bff; /* Màu chữ cho nút */
+        border-radius: 5px; /* Bo tròn các góc */
+        transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+        display: inline-block; /* Đảm bảo nút hiển thị như một khối nội tuyến */
+        line-height: 1; /* Đảm bảo chiều cao dòng nhất quán */
+    }
+
+        .pagination a:hover {
+            background-color: blue; /* Màu nền khi hover */
+            color: white; /* Màu chữ khi hover */
+        }
+
+

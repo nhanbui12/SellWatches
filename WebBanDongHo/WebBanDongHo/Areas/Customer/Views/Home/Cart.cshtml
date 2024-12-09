@@ -1,0 +1,90 @@
+﻿@using WebBanDongHo.Models
+@model List<CartItem>
+@{
+    ViewData["Title"] = "GioHang";
+}
+
+<h1>Giỏ hàng</h1>
+<br />
+@if (TempData["Massage"] != null)
+{
+    <div class="alert alert-warning">
+        <strong>@TempData["Massage"]</strong>
+    </div>
+}
+else
+{
+    <div class="row">
+        <table class="table table-striped border">
+            <thead>
+                <tr class="table-primary">
+                    <th>Hình</th>
+                    <th>Tên</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/@item.product_image1" width="150px" height="150px" />
+                        </td>
+                        <td> @item.product_name</td>
+                        <td>@string.Format("{0:N0} VNĐ", item.product_price)</td>
+
+                        <td>
+                            <input type="number" id="quantity" name="quantity" value="@item.quantity" style="text-align:center" disabled="disabled"/>
+                        </td>
+
+                        @* <td>
+                            <input type="number" value="@item.quantity"/>
+                        </td> *@
+                        <td>
+                            <a asp-area="Customer" asp-action="Delete" asp-controller="Home" asp-route-id="@item.product_id" class="btn btn-danger">
+                                <i class="fa-solid fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-3 text-start">
+            <a asp-action="Index" asp-controller="Home" class="btn btn-outline-success">Quay lại</a>
+        </div>
+        <div class="col-6 text-center">
+            <h2 style="color:orangered">Giá tạm tính: @string.Format("{0:N0} VNĐ", Model.Sum(p => p.product_price * p.quantity))</h2>
+        </div> 
+        <div class="col-3 text-end">
+            <a asp-action="OrderCart" asp-controller="Home" class="btn btn-outline-primary">Đặt hàng</a>
+        </div>
+    </div>
+}
+@* js *@
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var del = '@TempData["Del"]';
+            var desc = '@TempData["Desc"]';
+           if(del)
+           {
+                alertify.success(del);
+           }else if (desc) {
+                alertify.success(desc);
+           }
+        });
+    </script>
+}
+
+
+

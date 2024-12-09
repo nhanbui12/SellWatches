@@ -1,0 +1,144 @@
+﻿@using WebBanDongHo.Models;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<Products>;
+@{
+    ViewData["Title"] = "Home - CuaHangDongHo";
+}
+
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Bạn muốn tìm gì?" readonly="readonly">
+    <div class="input-group-btn">
+        <button id="showSearch" class="btn btn-outline-primary rounded">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+  </div>
+
+    
+
+@if (User.IsInRole("Customer"))
+{
+    @* search *@
+    <br />
+    <br />
+    <div id="divformSearch" style="display:none">
+        <form method="post" style="background-color:lightblue">
+            <div class="p-3 rounded border">
+                <div class="row" style="padding:10px">
+                    <div class="col-6">
+                        <label class="mb-3">Nhập giá thấp nhất</label>
+                        <input type="number" class="form-control" name="pricemin" placeholder="Nhập giá thấp bạn muốn tìm..." />
+                    </div>
+                    <div class="col-6">
+                        <label class="mb-3">Nhập giá cao nhất</label>
+                        <input type="number" class="form-control" name="pricemax" placeholder="Nhập giá cao nhất bạn muốn tìm..." />
+                    </div>
+                </div>
+                <div class="row" style="padding:10px">
+                    <div class="col-6">
+                        <label class="mb-3">Nhập tên sản phẩm</label>
+                        <input type="text" class="form-control" name="nameproduct" placeholder="Nhập tên sản phẩm ban muốn tìm..." />
+                    </div>
+                    <div class="col-6">
+                        <label class="mb-3">Nhập tên loại sản phẩm</label>
+                        <input type="text" class="form-control" name="namecategory" placeholder="Nhập tên loại sản phẩm bạn muốn tìm..." />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-outline-dark" value="Tìm kiếm" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+}
+<br />
+<!-- Slide Show -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+<!-- Images in slide show -->
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="~/Images/slideshow1.jpg" alt="Los Angeles" class="d-block" style="width:100%;height:500px">
+        <div class="carousel-caption">
+            <h3>Đồng hồ Edox CO-1 45 mm Nam 10242-TINRCA-BRDR</h3>
+            <p>Thay pin trọn đời</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+            <img src="~/Images/slideshow2.jpg" alt="Chicago" class="d-block" style="width:100%;height:500px">
+        <div class="carousel-caption">
+            <h3>Đồng hồ Tommy Hilfiger 36 mm Nữ 1782547</h3>
+            <p>Bảo hành có cam kết trong 12 tháng</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+            <img src="~/Images/slideshow3.jpg" alt="New York" class="d-block" style="width:100%;height:500px">
+        <div class="carousel-caption">
+            <h3>Đồng hồ MVW Sport 43 mm Nam MS099-01</h3>
+            <p>Bảo hành chính hãng 1 năm tại các trung tâm bảo hành hãng</p>
+        </div>
+    </div>
+</div>
+
+<!-- button icon < > -->
+<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+<br /><br />
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-3"> 
+            <div class="card mb-4">
+                <div class="card-image-wrapper">
+                    <img src="~/@product.image1" alt="Card Image" class="card-img-top product-img" />
+                    <a asp-action="Detail" asp-controller="Home" asp-route-id="@product.id" class="btn details-btn btn-outline-primary">Xem thêm</a>
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center">@product.name</p>
+                    <p class="card-text text-center" style="color:darkred;">@string.Format("{0:N0} VNĐ", @product.price)</p>
+                </div>
+            </div>
+        </div>
+    }
+    
+</div>
+<div class="pagination">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('showSearch').addEventListener('click', function () {
+            var divformSearch = document.getElementById('divformSearch');
+            if (divformSearch.style.display === 'none') {
+                divformSearch.style.display = 'block';
+            } else {
+                divformSearch.style.display = 'none';
+            }
+        });
+    </script>
+}
+
+
+
+

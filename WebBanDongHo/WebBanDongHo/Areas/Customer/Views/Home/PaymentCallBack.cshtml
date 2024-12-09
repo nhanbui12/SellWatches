@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "KetQuaThanhToan - Success";
+}
+
+@if (TempData["PayMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Kết quả</h4>
+        <p>@TempData["PayMessage"]</p>
+        <hr>
+        <p class="mb-0">Cảm ơn quý khách đã quan tâm và mua sắm tại cửa hàng, xin chào tạm biệt và hẹn gặp lại!</p>
+    </div>
+    <div class="col-6" style="padding:10px">
+        <a asp-action="Index" asp-controller="Home" class="btn btn-outline-success">Về trang chủ</a>
+    </div>
+}

@@ -1,0 +1,123 @@
+﻿@model WebBanDongHo.Models.Products
+@{
+    ViewData["Title"] = "ThemSanPham";
+}
+<br />
+
+<h2 class="text-info">Thêm sản phẩm</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        <strong>@TempData["Error"]</strong>
+    </div>
+}
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="p-4 rounded border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="name">Tên</label>
+            </div>
+            <div class="col-7">
+                <input asp-for="name" class="form-control" placeholder="Nhập tên sản phẩm" />
+            </div>
+            <div class="col-3 d-flex align-items-center">
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="description">Mô tả</label>
+            </div>
+            <div class="col-7">
+                <textarea asp-for="description" class="form-control" rows="3" placeholder="Nhập mô tả sản phẩm"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="price">Giá</label>
+            </div>
+            <div class="col-7">
+                <input asp-for="price" class="form-control" placeholder="Nhập giá sản phẩm" />
+            </div>
+            <div class="col-3 d-flex align-items-center">
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="color">Màu</label>
+            </div>
+            <div class="col-7">
+                <input asp-for="color" class="form-control" placeholder="Nhập màu sản phẩm" />
+            </div>
+            <div class="col-3 d-flex align-items-center">
+                <span asp-validation-for="color" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="image1">Hình 1</label>
+            </div>
+            <div class="col-7">
+                <input asp-for="image1" class="form-control" type="file" name="image1" />
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="image2">Hình 2</label>
+            </div>
+            <div class="col-7">
+                <input asp-for="image2" class="form-control" type="file" name="image2" />
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="image3">Hình 3</label>
+            </div>
+            <div class="col-7">
+                <input asp-for="image3" class="form-control" type="file" name="image3" />
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="categories_id">Loại</label>
+            </div> 
+            <div class="col-7">
+                <select asp-for="categories_id" asp-items="ViewBag.categories_id" class="form-select"></select>
+                @* <input asp-for="categories_id" class="form-control" /> *@
+            </div>
+            <div class="col-3 d-flex align-items-center">
+                <span asp-validation-for="categories_id" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="isAvailable">Có sẵn</label>
+            </div>
+            <div class="col-7">
+                <input asp-for="isAvailable" type="checkbox" />
+            </div>
+        </div>
+
+        <div class="form-group" style="padding:10px">
+            <input type="submit" class="btn btn-outline-primary" value="Xác nhận thêm" style="margin-right:5px;" />
+            <a asp-action="Index" class="btn btn-outline-success">Quay lại</a>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

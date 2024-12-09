@@ -1,0 +1,921 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanDongHo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebBanDongHo.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\Class_Diagram_SellWatchesSystem.png",
+      "PackagePath": "staticwebassets\\Images\\Class_Diagram_SellWatchesSystem.png"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-ba-110nr-8adr-trang-up-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-ba-110nr-8adr-trang-up-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-ba-110nr-8adr-trang-up-11-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-ba-110nr-8adr-trang-up-11-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-ba-110nr-8adr-trang-up-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-ba-110nr-8adr-trang-up-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-ba-120-2bdr-nu1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-ba-120-2bdr-nu1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-ba-120-2bdr-nu2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-ba-120-2bdr-nu2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-ba-120-2bdr-nu3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-ba-120-2bdr-nu3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bga-320-4adr-nu-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bga-320-4adr-nu-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bga-320-4adr-nu-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bga-320-4adr-nu-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bga-320-4adr-nu-5-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bga-320-4adr-nu-5-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bgd-565-4dr-nu-1-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bgd-565-4dr-nu-1-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bgd-565-4dr-nu-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bgd-565-4dr-nu-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bgd-565-4dr-nu-5-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bgd-565-4dr-nu-5-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bsa-b100cs-3adr-nu-1-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bsa-b100cs-3adr-nu-1-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bsa-b100cs-3adr-nu-11-img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bsa-b100cs-3adr-nu-11-img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\baby-g-bsa-b100cs-3adr-nu-3-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\baby-g-bsa-b100cs-3adr-nu-3-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\candino-c4626-4-nu-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\candino-c4626-4-nu-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\candino-c4626-4-nu-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\candino-c4626-4-nu-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\candino-c4626-4-nu-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\candino-c4626-4-nu-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\candino-c4726-3-nam1-700x467.jpg",
+      "PackagePath": "staticwebassets\\Images\\candino-c4726-3-nam1-700x467.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\candino-c4760-3-nu-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\candino-c4760-3-nu-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\candino-c4760-3-nu-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\candino-c4760-3-nu-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\candino-c4760-3-nu-99-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\candino-c4760-3-nu-99-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ae-1200wh-1avdf-den-1-fix-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ae-1200wh-1avdf-den-1-fix-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ae-1200wh-1avdf-den-2-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ae-1200wh-1avdf-den-2-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ae-1200wh-1avdf-den-3-2-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ae-1200wh-1avdf-den-3-2-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ltp-1169d-7ardf-bac-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ltp-1169d-7ardf-bac-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ltp-1169d-7ardf-bac-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ltp-1169d-7ardf-bac-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ltp-1169d-7ardf-bac-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ltp-1169d-7ardf-bac-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ltp-vt01gl-4budf-nu-1-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ltp-vt01gl-4budf-nu-1-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ltp-vt01gl-4budf-nu-2-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ltp-vt01gl-4budf-nu-2-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-ltp-vt01gl-4budf-nu-6-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-ltp-vt01gl-4budf-nu-6-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-lwa-300h-7evdf-nu-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-lwa-300h-7evdf-nu-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-lwa-300h-7evdf-nu-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-lwa-300h-7evdf-nu-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-lwa-300h-7evdf-nu-4-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-lwa-300h-7evdf-nu-4-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-e715d-7avdf-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-e715d-7avdf-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-e715d-7avdf-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-e715d-7avdf-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-e715d-7avdf-nam-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-e715d-7avdf-nam-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-m305d-1avdf-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-m305d-1avdf-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-m305d-1avdf-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-m305d-1avdf-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-m305d-1avdf-nam-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-m305d-1avdf-nam-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-v004g-7budf-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-v004g-7budf-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-v004g-7budf-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-v004g-7budf-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-v004g-7budf-nam-3-750x500-img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-v004g-7budf-nam-3-750x500-img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-v300b-1audf-nam-2-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-v300b-1audf-nam-2-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-v300b-1audf-nam-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-v300b-1audf-nam-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\casio-mtp-v300b-1audf-nam-4-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\casio-mtp-v300b-1audf-nam-4-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-ar1133-15a-nam-ga-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-ar1133-15a-nam-ga-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-ar1133-15a-nam2-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-ar1133-15a-nam2-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-ar1133-15a-nam3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-ar1133-15a-nam3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-bf2022-55h-nam-2-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-bf2022-55h-nam-2-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-bf2022-55h-nam-2-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-bf2022-55h-nam-2-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-bf2022-55h-nam1-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-bf2022-55h-nam1-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-bi5055-51e-nam-2-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-bi5055-51e-nam-2-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-bi5055-51e-nam-5-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-bi5055-51e-nam-5-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-bi5055-51e-nam-8-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-bi5055-51e-nam-8-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0508-80y-nu-1-750x500_img1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0508-80y-nu-1-750x500_img1.jpeg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0508-80y-nu-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0508-80y-nu-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0508-80y-nu-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0508-80y-nu-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0814-83a-nu-1-638629702702822863-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0814-83a-nu-1-638629702702822863-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0814-83a-nu-2-638629702709113095-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0814-83a-nu-2-638629702709113095-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0814-83a-nu-3-638629702714945017-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0814-83a-nu-3-638629702714945017-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0896-89y-nu-1-750x500-img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0896-89y-nu-1-750x500-img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0896-89y-nu-10_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0896-89y-nu-10_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-em0896-89y-nu-2-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-em0896-89y-nu-2-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-eq0593-85p-vang-2-3-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-eq0593-85p-vang-2-3-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-eq0593-85p-vang-3-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-eq0593-85p-vang-3-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-eq0593-85p-vang-7-1-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-eq0593-85p-vang-7-1-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-nh8400-87a-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-nh8400-87a-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-nh8400-87a-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-nh8400-87a-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-nh8400-87a-nam-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-nh8400-87a-nam-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-nh8400-87l-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-nh8400-87l-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-nh8400-87l-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-nh8400-87l-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-nh8400-87l-nam-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-nh8400-87l-nam-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-tsuyosa-pantone-nj0158-89l-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-tsuyosa-pantone-nj0158-89l-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-tsuyosa-pantone-nj0158-89l-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-tsuyosa-pantone-nj0158-89l-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\citizen-tsuyosa-pantone-nj0158-89l-nam-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\citizen-tsuyosa-pantone-nj0158-89l-nam-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-citizen-40-mm-nam-nh9130-84l-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-citizen-40-mm-nam-nh9130-84l-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-citizen-40-mm-nam-nh9130-84l-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-citizen-40-mm-nam-nh9130-84l-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-citizen-40-mm-nam-nh9130-84l-4-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-citizen-40-mm-nam-nh9130-84l-4-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-nam-mvw-ml047-01-2-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-nam-mvw-ml047-01-2-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-nam-mvw-ml047-01-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-nam-mvw-ml047-01-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-nam-mvw-ml047-01-5-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-nam-mvw-ml047-01-5-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-nam-mvw-ml063-01-2-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-nam-mvw-ml063-01-2-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-nam-mvw-ml063-01-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-nam-mvw-ml063-01-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\dong-ho-nam-mvw-ml063-01-5-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\dong-ho-nam-mvw-ml063-01-5-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-dw-5600ue-1dr-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-dw-5600ue-1dr-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-dw-5600ue-1dr-nam-4-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-dw-5600ue-1dr-nam-4-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-dw-5600ue-1dr-nam-6-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-dw-5600ue-1dr-nam-6-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-ga-700mf-1adr-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-ga-700mf-1adr-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-ga-700mf-1adr-nam-4-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-ga-700mf-1adr-nam-4-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-ga-700mf-1adr-nam-5-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-ga-700mf-1adr-nam-5-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gm-b2100ad-2adr-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gm-b2100ad-2adr-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gm-b2100ad-2adr-nam-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gm-b2100ad-2adr-nam-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gm-b2100ad-2adr-nam-4-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gm-b2100ad-2adr-nam-4-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gm-s2100mf-1adr-nu-1-fix-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gm-s2100mf-1adr-nu-1-fix-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gm-s2100mf-1adr-nu-10_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gm-s2100mf-1adr-nu-10_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gm-s2100mf-1adr-nu-12_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gm-s2100mf-1adr-nu-12_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gma-p2100sg-2adr-nu-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gma-p2100sg-2adr-nu-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gma-p2100sg-2adr-nu-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gma-p2100sg-2adr-nu-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gma-p2100sg-2adr-nu-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gma-p2100sg-2adr-nu-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gst-b400gb-1a9dr-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gst-b400gb-1a9dr-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gst-b400gb-1a9dr-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gst-b400gb-1a9dr-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\g-shock-gst-b400gb-1a9dr-nam-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\g-shock-gst-b400gb-1a9dr-nam-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\movado-3600433-nu-2-700x467_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\movado-3600433-nu-2-700x467_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\movado-3600433-nu-3-700x467_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\movado-3600433-nu-3-700x467_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\movado-3600433-nu1-700x467_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\movado-3600433-nu1-700x467_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\movado-3600649-nu1-700x467_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\movado-3600649-nu1-700x467_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\movado-3600649-nu2-700x467_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\movado-3600649-nu2-700x467_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\movado-3600649-nu3-700x467_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\movado-3600649-nu3-700x467_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-ms073-01-nam-2-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-ms073-01-nam-2-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-ms073-01-nam-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-ms073-01-nam-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-ms073-01-nam-7-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-ms073-01-nam-7-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-msa088-01-s1-nam-2-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-msa088-01-s1-nam-2-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-msa088-01-s1-nam-3-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-msa088-01-s1-nam-3-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-msa088-01-s1-nam-5-1-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-msa088-01-s1-nam-5-1-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-msca004-01-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-msca004-01-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-msca004-01-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-msca004-01-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-msca004-01-nam-4-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-msca004-01-nam-4-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-star-mla004-01n-10_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-star-mla004-01n-10_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-star-mla004-01n-11_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-star-mla004-01n-11_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-star-mla004-01n-13_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-star-mla004-01n-13_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-star-msa005-01n-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-star-msa005-01n-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-star-msa005-01n-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-star-msa005-01n-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\mvw-star-msa005-01n-nam-4-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\mvw-star-msa005-01n-nam-4-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\nakzen-ss1015l-7n0-nu-1-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\nakzen-ss1015l-7n0-nu-1-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\nakzen-ss1015l-7n0-nu-11_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\nakzen-ss1015l-7n0-nu-11_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\nakzen-ss1015l-7n0-nu-6-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\nakzen-ss1015l-7n0-nu-6-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fac00005w0-nam-co-tu-dong-1-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fac00005w0-nam-co-tu-dong-1-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fac00005w0-nam-co-tu-dong-14-700x467_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fac00005w0-nam-co-tu-dong-14-700x467_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fac00005w0-nam-co-tu-dong-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fac00005w0-nam-co-tu-dong-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fag00001t0-nam-co-tu-dong-10-org-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fag00001t0-nam-co-tu-dong-10-org-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fag00001t0-nam-co-tu-dong-5-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fag00001t0-nam-co-tu-dong-5-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fag00001t0-nam-co-tu-dong-8-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fag00001t0-nam-co-tu-dong-8-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fgw01001w0-nam-1-1-700x467_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fgw01001w0-nam-1-1-700x467_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fgw01001w0-nam-14-700x467_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fgw01001w0-nam-14-700x467_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-fgw01001w0-nam-3-700x467_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-fgw01001w0-nam-3-700x467_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-aa0b04r19b-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-aa0b04r19b-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-aa0b04r19b-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-aa0b04r19b-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-aa0b04r19b-3-1-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-aa0b04r19b-3-1-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-ap0104s30b-nam-1-638623420698110825-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-ap0104s30b-nam-1-638623420698110825-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-ap0104s30b-nam-2-638623420706650513-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-ap0104s30b-nam-2-638623420706650513-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-ap0104s30b-nam-4-638623420720471105-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-ap0104s30b-nam-4-638623420720471105-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-tx0201l10b-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-tx0201l10b-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-tx0201l10b-nam-2-1-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-tx0201l10b-nam-2-1-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-ra-tx0201l10b-nam-3-1-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-ra-tx0201l10b-nam-3-1-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-star-re-av0124g00b-nam-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-star-re-av0124g00b-nam-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-star-re-av0124g00b-nam-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-star-re-av0124g00b-nam-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\orient-star-re-av0124g00b-nam-3-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\orient-star-re-av0124g00b-nam-3-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\skmei-sk-1478-hong-xanh-5-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\skmei-sk-1478-hong-xanh-5-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\skmei-sk-1478-hong-xanh-6-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\skmei-sk-1478-hong-xanh-6-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\skmei-sk-1478-hong-xanh-8-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\skmei-sk-1478-hong-xanh-8-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\skmei-sk101-02-tre-em-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\skmei-sk101-02-tre-em-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\skmei-sk101-02-tre-em-3-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\skmei-sk101-02-tre-em-3-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\skmei-sk101-02-tre-em-8-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\skmei-sk101-02-tre-em-8-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\slideshow1.jpg",
+      "PackagePath": "staticwebassets\\Images\\slideshow1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\slideshow2.jpg",
+      "PackagePath": "staticwebassets\\Images\\slideshow2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\slideshow3.jpg",
+      "PackagePath": "staticwebassets\\Images\\slideshow3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\smile-kid-sl064-01-tre-em-2-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\smile-kid-sl064-01-tre-em-2-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\smile-kid-sl064-01-tre-em-4-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\smile-kid-sl064-01-tre-em-4-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\smile-kid-sl064-01-tre-em-8-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\smile-kid-sl064-01-tre-em-8-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\smile-kid-sl126-02-tre-em-1-750x500_img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\smile-kid-sl126-02-tre-em-1-750x500_img1.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\smile-kid-sl126-02-tre-em-2-750x500_img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\smile-kid-sl126-02-tre-em-2-750x500_img2.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\Images\\smile-kid-sl126-02-tre-em-7-750x500_img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\smile-kid-sl126-02-tre-em-7-750x500_img3.jpg"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\BaiNgay16_10_2024\\WebBanDongHo\\WebBanDongHo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebBanDongHo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebBanDongHo.props",
+      "PackagePath": "build\\WebBanDongHo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebBanDongHo.props",
+      "PackagePath": "buildMultiTargeting\\WebBanDongHo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebBanDongHo.props",
+      "PackagePath": "buildTransitive\\WebBanDongHo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

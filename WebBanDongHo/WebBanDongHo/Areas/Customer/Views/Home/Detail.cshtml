@@ -1,0 +1,257 @@
+﻿@model WebBanDongHo.Models.Products;
+@{
+    ViewData["Title"] = "ChiTietSanPham";
+}
+@using WebBanDongHo.Data
+@using WebBanDongHo.Utilities
+@using Microsoft.AspNetCore.Http
+@using System.Security.Claims
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    List<CartItem> listCart = HttpContextAccessor.HttpContext.Session.Get<List<CartItem>>("listCart");
+    CartItem cart = null;
+    if (listCart != null)
+    {
+        cart = listCart.FirstOrDefault(p => p.product_id == Model.id);
+    }
+    
+}
+
+<br />
+<form asp-action="Detail" method="post" enctype="multipart/form-data">
+    <div class="p-2 rounded border row">
+        <div class="container my-5">
+            <div class="row">
+
+                <!-- Product Image -->
+                <div class="col-md-6">
+                    <div class="position-relative">
+                        <img id="mainImage" src="~/@Model.image1" width="400px" height="400px" class="img-fluid" alt="Product Image">
+                        @if (!Model.isAvailable)
+                        {
+                               <div class="sold-out-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
+                                <span class="text-white bg-black px-3 py-3 rounded-circle" style="padding: 20px 30px;font-size:1.5rem;">Hết hàng</span>
+                            </div>
+                        }
+                    </div>
+                    <div class="d-flex mt-3">
+                        <!-- Thumbnail images -->
+                        <img src="~/@Model.image1" width="25%" class="img-thumbnail me-2" alt="Thumbnail 1" onclick="changeImage(this)">
+                        <img src="~/@Model.image2" width="25%" class="img-thumbnail me-2" alt="Thumbnail 2" onclick="changeImage(this)">
+                        <img src="~/@Model.image3" width="25%" class="img-thumbnail" alt="Thumbnail 3" onclick="changeImage(this)">
+                    </div>
+                </div>
+
+                <div class="col-md-1"></div>
+
+                <!-- Product Details -->
+                <div class="col-md-5">
+                    <h3 class="product-title">@Model.name</h3>
+                    <p class="price" style="color:darkred; font-weight:bold;font-size:20px">Giá: @string.Format("{0:N0} VNĐ", Model.price)</p>
+                    <p>Màu: @Model.color</p>
+                    <p>Loại: @Model.Categories.name</p>
+                    <!-- Features -->
+                    <div class="mb-3">
+                        <p><i class="fa-solid fa-truck-arrow-right"></i> Miễn phí vận chuyển</p>
+                    </div>
+                    <div class="mb-3">
+                        <p><i class="fa-solid fa-battery-full"></i></i> Thay pin trọn đời</p>
+                    </div>
+                    <div class="mb-3">
+                        <p><i class="fa-solid fa-award"></i></i> Bảo hành có cam kết trong 12 tháng</p>
+                    </div>
+
+                    <!-- Support Information -->
+                    <div class="support-info mb-4">
+                        <p>Liên Hệ Hỗ Trợ:</p>
+                        <p>Hotline: 0814.688.368</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="input-group mb-3">
+                            <span>
+                                <button type="button" class="btn btn-outline-danger" onclick="QuantityDesc()">-</button>
+                            </span>
+                            <input type="number" id="quantity" name="quantity" value="1" min="1" style="width: 30px;" class="form-control text-center" />
+                            <span>
+                                <button type="button" class="btn btn-outline-danger" onclick="QuantityAsc()">+</button>
+                            </span>
+                        </div>
+
+                        @if (Model.isAvailable)
+                        {
+                            <div class="mb-3">
+                                <input type="submit" class="btn btn-outline-dark form-control" value="Thêm vào giỏ" />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="mb-3">
+                                <input type="submit" class="btn btn-outline-dark form-control" value="Thêm vào giỏ" disabled="disabled" />
+                            </div>
+                        }
+                        <div class="mb-3">
+                            <a asp-action="Index" class="form-control btn btn-outline-success">Quay lại</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<!-- Tabs for description and reviews -->
+<div class="row mt-5">
+    <div class="col-12">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#description">MÔ TẢ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#reviews">BÌNH LUẬN</a>
+            </li>
+        </ul>
+
+        <div class="tab-content mt-3">
+            <div class="tab-pane fade show active" id="description">
+                <p>@Model.description</p>
+            </div>
+            <div class="tab-pane fade" id="reviews">
+                @* Add Comments *@
+                <br /> 
+                <div class="mt-3">
+                    <form asp-action="Comment" method="post">
+                        <input type="hidden" name="id" value="@Model.id" />
+                        @* content *@
+                        <div class="form-group mb-3">
+                            <textarea class="form-control" id="content" name="content" rows="3" maxlength="1000" placeholder="Nhập bình luận của bạn" required></textarea>
+                        </div>
+                        <div class="text-end mb-3 mt-2">
+                            <button type="submit" class="btn btn-outline-primary">Đăng</button>
+                        </div>
+                    </form>
+                </div>
+                @{
+                    bool post = TempData["Post"] as bool? ?? false;
+                    if (post)
+                    {
+                        // Clear content comment if Posted
+                        <text>
+                            <script>
+                                document.getElementById("content").value = "";
+                            </script>
+                        </text>
+                    }
+                 }
+                
+                @* display list comment*@
+                <div class="mt-3">
+                    @{
+                        if (ViewBag.listcomment != null)
+                        {
+                            foreach (var c in ViewBag.listcomment)
+                            {
+                            <div class="card mb-2 comment">
+                                <div style="padding:10px">
+                                    <div>
+                                        <p style="color:orangered">UserName: @c.userComment</p>
+                                        <p><b>@c.content</b></p>
+                                        <small class="text-muted">Thời gian: @c.postTime.ToString("dd/MM/yyyy hh:mm:ss tt")</small>
+                                    </div>
+                                </div>
+                                </div>
+                            }
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+@if (!User.IsInRole("Admin"))
+{
+    <h1>Xem sản phẩm so sánh giá</h1>
+    <div id="compare-products">
+        @* list products after compare price *@
+    </div>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+    }
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+    <script>
+        function QuantityDesc() {
+            var sl = document.getElementById("quantity");
+            var oldValue = parseInt(sl.value);
+            if (oldValue > 1) {
+                sl.value = oldValue - 1;
+            }
+        }
+
+        function QuantityAsc() {
+            var sl = document.getElementById("quantity");
+            var oldValue = parseInt(sl.value);
+            if (oldValue < 100) {
+                sl.value = oldValue + 1;
+            }
+        }
+
+        function changeImage(thumbnail) {
+            const mainImage = document.getElementById('mainImage');
+            if (mainImage.src != thumbnail.src)
+            mainImage.src = thumbnail.src;
+
+            // Bỏ chọn tất cả các thumbnail
+            const thumbnails = document.querySelectorAll('.thumbnail');
+            thumbnails.forEach(t => t.classList.remove('selected'));
+
+            // Thêm lớp selected cho thumbnail được chọn
+            thumbnail.classList.add('selected');
+        }
+        
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            var c = '@TempData["AddComment"]';
+            var add = '@TempData["Add"]';
+            if (c) {
+                alertify.success(c);
+            } else if (add) 
+            {
+                alertify.success(add);
+            }
+        });
+    </script>
+
+    @* paritalview *@
+    <script>
+        $(document).ready(function () {
+            var id = @Model.id;
+            var url = '@Url.Action("ComparePrice", "Home")' + '?id=' + id;
+            $.ajax({
+                url: url,
+                type: "GET",
+                success: function (data) {
+                    $("#compare-products").html(data);
+                }
+            });
+        });
+    </script>
+
+
+
+}
+
+
+
+            

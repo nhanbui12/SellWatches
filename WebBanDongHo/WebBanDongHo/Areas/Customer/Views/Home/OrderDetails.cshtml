@@ -1,0 +1,36 @@
+﻿@using WebBanDongHo.Models;
+@model IEnumerable<OrderDetails>
+@{
+    ViewData["Title"] = "Home - DonHangBan";
+}
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-dark">Danh sách chi tiết đơn hàng bán</h2>
+    </div>
+</div>
+<br />
+<div>
+    <table class="table table-striped border">
+        <tr class="table-primary">
+            <th>Mã đơn hàng</th>
+            <th>Mã sản phẩm</th>
+            <th>Tài khoản đặt</th>
+            <th>Tên sản phẩm </th>
+            <th>Số lượng</th>
+            <th>Giá</th>
+            <th>Thời gian đặt</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.orders_id</td>
+                <td>@item.products_id</td>
+                <td>@item.Orders.ApplicationUsers.UserName</td>
+                <td>@item.Products.name</td>
+                <td>@item.quantityOrder</td>
+                <td>@string.Format("{0:N0} VNĐ", @item.unitPrice)</td>
+                <td>@item.Orders.orderDate</td>
+            </tr>
+        }
+    </table>
+</div>

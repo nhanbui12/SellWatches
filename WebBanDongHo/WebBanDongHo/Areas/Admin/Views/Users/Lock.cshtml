@@ -1,0 +1,62 @@
+﻿@model WebBanDongHo.Models.ApplicationUsers
+@{
+    ViewData["Title"] = "KhoaTaiKhoan";
+}
+<br />
+
+<h2 class="text-info">Khóa tài khoản</h2>
+<br />
+<form asp-action="Lock" method="post">
+    <div class="p-4 rounded border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="firstName">Họ</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="firstName" class="form-control" readonly="readonly" />
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="lastName">Tên</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="lastName" class="form-control" readonly="readonly" />
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="UserName">UserName</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="UserName" class="form-control" readonly="readonly" />
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="Email">Email</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Email" class="form-control" readonly="readonly" />
+            </div>
+        </div>
+
+        <div class="form-group row" style="padding:10px">
+            <div class="col-2">
+                <label asp-for="LockoutEnd">Thời gian khóa kết thúc</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="LockoutEnd" class="form-control" readonly="readonly" />
+            </div>
+        </div>
+
+        <div class="form-group" style="padding:10px">
+            <input type="submit" class="btn btn-outline-warning" value="Xác nhận khóa" style="margin-right:5px;" />
+            <a asp-action="Index" class="btn btn-outline-success">Quay lại</a>
+        </div>
+    </div>
+</form>

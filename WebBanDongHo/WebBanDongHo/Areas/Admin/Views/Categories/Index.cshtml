@@ -1,0 +1,56 @@
+﻿@using WebBanDongHo.Models;
+@model IEnumerable<Categories>
+@{
+    ViewData["Title"] = "Home - LoaiSanPham";
+}
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-dark">Danh sách loại sản phẩm</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-action="Create" class="btn btn-outline-info"><i class="fa-solid fa-plus"></i>&nbsp; Thêm mới</a>
+    </div>
+</div>
+<br />
+<div>
+    <table class="table table-hover border">
+        <thead>
+            <tr class="table-primary">
+                <th>Tên loại sản phẩm</th>
+                <th>Ghi chú </th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.name</td>
+                    <td>@item.note</td>
+                    <td>
+                        <partial name="_ButtonPartial" model="@item.id" />
+                    </td>
+                </tr>
+            }
+        </tbody>      
+    </table>
+</div>
+@section Scripts {
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var cre = '@TempData["Cre"]';
+            var ed = '@TempData["Ed"]';
+            var del = '@TempData["Del"]';
+            if (cre) {
+                alertify.success(cre);
+            } else if (ed) {
+                alertify.success(ed);
+            } else if (del) {
+                alertify.success(del);
+            }
+        });
+    </script>
+}
+

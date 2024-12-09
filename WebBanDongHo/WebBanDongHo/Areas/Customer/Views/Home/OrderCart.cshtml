@@ -1,0 +1,113 @@
+﻿@model WebBanDongHo.Models.InfoOrdes
+@{
+    ViewData["Title"] = "ThongTinDonHang";
+  }
+@using WebBanDongHo.Utilities
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+	List<CartItem>listCart = HttpContextAccessor.HttpContext.Session.Get<List<CartItem>>("listCart");
+	if (listCart == null)
+	{
+		listCart = new List<CartItem>();
+	}
+}
+
+<br />
+
+<h1>Thông tin đơn hàng</h1>
+<form asp-action="OrderCart" method="post" enctype="multipart/form-data">
+	<div class="p-4 rounded border row text-danger fw-bold">
+		<div asp-validation-summary="ModelOnly" class="text-danger">
+		</div>
+		<input type="hidden" asp-for="orders.users_id" />
+		<div class="mb-3 row">
+			<div class="col-md-6">
+				<div>
+					<label class="mb-3">Thời gian đặt hàng</label>
+					<input readonly="readonly" class="form-control" value="@Model.orders.orderDate.ToString("dd/MM/yyyy hh:mm tt")" />
+				</div>
+				
+			</div>
+			<div class="col-md-6">
+				<label class="mb-3">UserName đặt hàng</label>
+				@{
+					var user = Model.orders.ApplicationUsers;
+					var customerName = user.UserName != null
+					? user.UserName
+					: user.firstName != null && user.lastName != null
+					? $"{user.lastName} {user.firstName}"
+					: user.firstName != null
+					? user.firstName
+					: user.lastName;
+				}
+				<input readonly="readonly" class="form-control" value="@customerName" />
+				<span asp-validation-for="orders.ApplicationUsers.UserName" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="mb-3 row">
+			<table class="table table-striped border">
+				<thead>
+					<tr class="table-primary">
+						<th>Hình ảnh</th>
+						<th>Tên</th>
+						<th>Giá</th>
+						<th>Số lượng</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model.cartItems)
+					{
+						<tr>
+							<td>
+								<img src="~/@item.product_image1" width="100px" height="100px" />
+							</td>
+							<td>
+								@item.product_name
+							</td>
+							<td>
+								@string.Format("{0:N0} VNĐ", item.product_price)
+							</td>
+							<td>
+								@item.quantity
+							</td>
+						</tr>
+					}
+
+				</tbody>
+			</table>
+		</div>
+		<div class="mb-3 row">
+			<div class="col-6">
+				<h3>Tổng số lượng: @Model.cartItems.Sum(c => c.quantity)</h3>
+			</div>
+			<div class="col-6 text-end">
+				<h3 style="color:orangered">Tổng tiền: @string.Format("{0:N0} VNĐ", Model.cartItems.Sum(c => c.quantity * c.product_price))</h3>
+			</div>
+		</div>
+
+		<div class="mb-3 row">
+			<label asp-for="orders.address" class="mb-3">Địa chỉ giao hàng: </label>
+            <input type="text" id="dc" name="dc" class="form-control mb-3" required>
+			<span asp-validation-for="orders.address" class="text-danger"></span>
+		</div>
+
+		<div class="mb-6 row">
+			<div class="col-6">
+				<a asp-action="Cart" asp-controller="Home" class="btn btn-outline-success">Quay lại</a>
+			</div>
+			<div class="col-6 text-end">
+				<input type="submit" name="payment" class="btn btn-outline-danger" value="Thanh toán VNPay" />
+			</div>
+		</div>
+
+	</div>
+</form>
+
+
+
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+	}
+}

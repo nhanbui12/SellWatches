@@ -1,0 +1,62 @@
+﻿@using WebBanDongHo.Models;
+@model IEnumerable<Products>
+@{
+    ViewData["Title"] = "Home - SanPham";
+}
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-dark">Danh sách sản phẩm</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-action="Create" class="btn btn-outline-info"><i class="fa-solid fa-plus"></i>&nbsp; Thêm mới</a>
+    </div>
+</div>
+<br />
+<div>
+    <table class="table table-hover border">
+        <thead>
+            <tr class="table-primary">
+                <th>Tên</th>
+                <th>Giá</th>
+                <th>Màu sắc</th>
+                <th>Loại sản phẩm</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.name</td>
+                    <td>@string.Format("{0:N0} VNĐ", item.price)</td>
+                    <td>@item.color</td>
+                    <td>@item.Categories.name</td>
+                    <td>
+                        <partial name="_ButtonPartial" model="@item.id" />
+                    </td>
+                </tr>
+            }
+        </tbody>      
+    </table>
+</div>
+@section Scripts {
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var cre = '@TempData["Create"]';
+            var ed = '@TempData["Edit"]';
+            var del = '@TempData["Delete"]';
+            if (cre) {
+                alertify.success(cre);
+            } else if (ed) {
+                alertify.success(ed);
+            } else if (del) {
+                alertify.success(del);
+            }
+        });
+    </script>
+}
+
+
+

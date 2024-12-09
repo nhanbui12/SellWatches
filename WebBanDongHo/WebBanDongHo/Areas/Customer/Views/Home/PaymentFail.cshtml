@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "KetQuaThanhToan - Fail";
+}
+
+@if (TempData["PayError"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">Kết quả</h4>
+        <strong>@TempData["PayError"]</strong>
+        <hr>
+        <p class="mb-0">Bạn vui lòng kiểm tra lại thông tin và thực hiện lại sau ít phút!</p>
+    </div>
+    <div class="col-6" style="padding:10px">
+        <a asp-action="Cart" asp-controller="Home" class="btn btn-outline-success">Quay lại giỏ hàng</a>
+    </div>
+}
+
+

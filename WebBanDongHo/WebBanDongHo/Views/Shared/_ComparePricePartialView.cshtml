@@ -1,0 +1,24 @@
+﻿@using WebBanDongHo.Models;
+@model List<Products>;
+
+<div class="row">
+    @foreach (var compareprice in Model)
+    {
+        <div class="col-3">
+            <div class="card mb-4">
+                <div class="card-image-wrapper">
+                    <img src="~/@compareprice.image1" alt="Card Image" class="card-img-top product-img" />
+                    <a asp-action="Detail" asp-controller="Home" asp-route-id="@compareprice.id" class="btn details-btn btn-outline-primary">Xem thêm</a>
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center">@compareprice.name</p>
+                    <p class="card-text text-center" style="color:darkred;">@string.Format("{0:N0} VNĐ", compareprice.price)</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+

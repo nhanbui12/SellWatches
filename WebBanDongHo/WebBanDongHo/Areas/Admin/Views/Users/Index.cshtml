@@ -1,0 +1,78 @@
+﻿@using WebBanDongHo.Models;
+@model IEnumerable<ApplicationUsers>
+@{
+    ViewData["Title"] = "Home - TaiKhoan";
+}
+<br />
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-dark">Danh sách tài khoản</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-action="EditUserRole" class="btn btn-outline-primary"><i class="fa-solid fa-pen-to-square"></i>&nbsp; Phân quyền</a>
+    </div>
+</div>
+<br />
+<div>
+    <table class="table table-hover border">
+        <tr class="table-primary">
+            <th>Họ</th>
+            <th>Tên</th>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Thời gian khóa kết thúc</th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.lastName</td>
+                <td>@item.firstName</td>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+                <td>@item.LockoutEnd</td>
+                @if (item.LockoutEnd > DateTime.Now && item.LockoutEnd != null)
+                {
+                    @* Locked *@
+                    <td></td>
+                    <td style="width:150px">
+                        <div class="btn-group float-end">
+                            <a asp-action="Open" class="btn btn-outline-warning rounded ms-2" asp-route-id="@item.Id"><i class="fa-solid fa-lock-open"></i></a>
+                            <a asp-action="Delete" class="btn btn-outline-danger rounded ms-2" asp-route-id="@item.Id"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <partial name="_ButtonStringPartialView" model="@item.Id" />
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+</div>
+@section Scripts {
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            var lock = '@TempData["Lock"]';
+            var open = '@TempData["Open"]';
+            var del = '@TempData["Del"]';
+            var save = '@TempData["save"]';
+            if (lock) {
+                alertify.success(lock);
+            } else if (open) {
+                alertify.success(open);
+            } else if (del) {
+                alertify.success(del);
+            } else if (save) {
+                alertify.success(save);
+            }
+        });
+    </script>
+}
+
+    

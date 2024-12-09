@@ -1,0 +1,194 @@
+﻿@using WebBanDongHo.Models;
+@model IEnumerable<dynamic>
+@{
+    ViewData["Title"] = "Home - ThongKe";
+}
+
+<h3>Lựa chọn yêu cầu thống kê của bạn</h3>
+<br />
+<div>
+    <form asp-action="Index" method="post">
+        <div class="row">
+            <div class="col-md-10">
+                <select class="form-select" aria-label="Default select example" id="option" name="option" required>
+                    <option selected>-------</option>
+                    <option value="1">Thống kế doanh thu bán theo tháng</option>
+                    <option value="2">Thống kê số lượng sản phẩm theo loại sản phẩm</option>
+                </select>
+            </div>
+            <div class="col-md-2 text-end">
+                <input type="submit" class="btn btn-outline-primary" value="Thống kê" />
+            </div>
+        </div>
+    </form>
+</div>
+
+<br /><br />
+@if(Model != null)
+{
+    @if (TempData["barChart"] != null)
+    {
+        <div class="alert alert-success text-center">
+            <strong>@TempData["barChart"]</strong>
+        </div>
+        <br />
+        <div class="row">
+            @* table *@
+            <div class="col-md-6">
+                <table class="table table-hover border">
+                    <thead>
+                        <tr class="table-primary">
+                            <th>Tháng</th>
+                            <th>Năm</th>
+                            <th>Tổng tiền tháng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MonthOrder</td>
+                                <td>@item.YearOrder</td>
+                                <td>@string.Format("{0:N0} VNĐ", item.TotalForOrder)</td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+           @* chart *@
+            <div class="col-md-6">
+                <canvas id="barChart" style="width:100%;max-width:700px"></canvas>
+            </div>
+        </div>
+    }
+    else if (TempData["barChart"] == null && TempData["myChart"] != null)
+    {
+        <div class="alert alert-success text-center">
+            <strong>@TempData["myChart"]</strong>
+        </div>
+        <br />
+        <div class="row">
+            @* table *@
+            <div class="col-md-6">
+                <table class="table table-hover border">
+                    <thead>
+                        <tr class="table-primary">
+                            <th>Mã loại</th>
+                            <th>Tên loại</th>
+                            <th>Tổng số sản phẩm</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.CategoriesId</td>
+                                <td>@item.CategoriesName</td>
+                                <td>@item.CountProductsInThis</td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+            @* chart *@
+            <div class="col-md-6">
+                <canvas id="pieChart" style="width:100%;max-width:900px"></canvas>
+            </div>
+        </div>
+    }
+    
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    @if (Model != null)
+    {
+        @* barchart *@
+        @if (TempData["barChart"] != null)
+            {
+             <script>
+                var ctx = document.getElementById('barChart').getContext('2d');
+                var revenueChart = new Chart(ctx, {
+                    type: 'bar', @* type chart *@
+                    data: {
+                    labels: [
+                    @foreach (var item in Model)
+                    {
+                        @: '@item.MonthOrder/@item.YearOrder',
+                    }
+                    ],
+                    datasets: [{
+                        label: 'Doanh thu tháng',
+                        data: [
+                        @foreach (var item in Model)
+                        {
+                            @: @item.TotalForOrder,
+                        }
+                    ],
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                    options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true  @* Trục Y bắt đầu từ 0 *@
+                                            }
+                                        }
+                                    }
+                                });
+             </script>
+        }
+        else if (TempData["barChart"] == null && TempData["myChart"] != null)
+            {
+                @* piechart*@
+            <script>
+            var pie = document.getElementById('pieChart');
+                var pieColors = ['rgba(255, 99, 132, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(255, 159, 64, 0.2)', 'rgba(255, 99, 71, 0.2)', 'rgba(255, 193, 7, 0.2)', 'rgba(54, 215, 183, 0.2)', 'rgba(173, 216, 230, 0.2)'];
+            var countChart = new Chart(pie, {
+                type: 'pie',
+                data: {
+                    labels: [
+                        @foreach (var item in Model)
+                        {
+                            @: 'Mã @item.CategoriesId',
+                        }
+                    ],
+                    datasets: [{
+                        label: 'Số lượng sản phẩm',
+                    
+                        data: [
+                            @foreach (var item in Model)
+                            {
+                                @: @item.CountProductsInThis,
+                            }
+                        ],
+                        backgroundColor: pieColors,
+                        borderWith:1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top',
+                        },
+                        tooltip: {
+                            enabled: true,
+                        }
+                    }
+                }
+            });
+        </script>
+            }
+    }  
+}
+
+
+
